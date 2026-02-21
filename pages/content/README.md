@@ -97,13 +97,13 @@ For detailed development guides, see:
 
 ```bash
 # Run tests (when implemented)
-pnpm test
+npm test
 
 # Type checking
-pnpm type-check
+npm run type-check
 
 # Linting
-pnpm lint
+npm run lint
 ```
 
 ## File Structure

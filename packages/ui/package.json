@@ -14,12 +14,12 @@
   "module": "dist/index.js",
   "scripts": {
     "clean:bundle": "rimraf dist",
-    "clean:node_modules": "pnpm dlx rimraf node_modules",
+    "clean:node_modules": "npx rimraf node_modules",
     "clean:turbo": "rimraf .turbo",
-    "clean": "pnpm clean:bundle && pnpm clean:node_modules && pnpm clean:turbo",
+    "clean": "npm run clean:bundle && npm run clean:node_modules && npm run clean:turbo",
     "ready": "tsc -b && tsc-alias -p tsconfig.json",
     "lint": "eslint .",
-    "lint:fix": "pnpm lint --fix",
+    "lint:fix": "npm run lint -- --fix",
     "prettier": "prettier . --write",
     "type-check": "tsc --noEmit"
   },

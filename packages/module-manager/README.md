@@ -7,13 +7,13 @@ Module manager is a tool to manage modules in a project. It can be used to delet
 ### On Root
 
 ```bash
-$ pnpm module-manager
+$ npm run module-manager
 ```
 
 ### On Module
 
 ```bash
-$ pnpm start
+$ npm start
 ```
 
 ### Choose a tool

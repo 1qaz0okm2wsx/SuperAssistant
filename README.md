@@ -260,22 +260,22 @@ In such cases, use better models which are meant for tool calling or have better
 ### Prerequisites
 
 - Node.js (v16+)
-- pnpm
+- npm
 
 ### Setup
 
 ```bash
 # Install dependencies
-pnpm install
+npm install
 
 # Start development server
-pnpm dev
+npm run dev
 
 # Build for production
-pnpm build
+npm run build
 
 # Create zip package for distribution
-pnpm zip
+npm run zip
 ```
 
 ## Contributing
